@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiba Tariq - Front End & UI/UX Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Magic Particles Background -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Floating Orbs -->
+    <div class="orb"></div>
+    <div class="orb"></div>
+    <div class="orb"></div>
+
+    <!-- Custom Cursor -->
+    <div id="cursor"></div>
+    <div id="cursor-follower"></div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Hiba</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="hero-content animate">
+            <h1>Hi, I'm Hiba Tariq</h1>
+            <p class="subtitle">I am Front End Developer</p>
+            <div id="typewriter"></div>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Magic</a>
+                <a href="#contact" class="btn btn-secondary">Hire a Wizard</a>
+            </div>
+            <div class="remote-badge">
+                <i class="fas fa-globe"></i>
+                Available for Remote Work
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2 class="animate">About Me</h2>
+        <div class="about-grid">
+            <div class="about-img animate">
+     <img src="./images/download.jpeg" alt="">
+                <div class="back-face">Front End Sorceress & UI/UX Alchemist</div>
+            </div>
+            <div class="about-text animate">
+                <p>I'm a <span class="highlight">Front End Developer</span> and <span class="highlight">UI/UX Designer</span> who casts spells with code and conjures breathtaking digital experiences.</p>
+                <p>I transform ideas into interactive masterpieces using modern web magic — React, CSS, and pure creativity.</p>
+                <p>Every pixel is enchanted, every animation is alive. Let's create something legendary together!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2 class="animate">My Magic Spells</h2>
+        <div class="skills-container">
+            <div class="skill-item animate">
+                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="95"></div>
+                </div>
+            </div>
+            <div class="skill-item animate">
+                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="93"></div>
+                </div>
+            </div>
+            <div class="skill-item animate">
+                <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="88"></div>
+                </div>
+            </div>
+            <div class="skill-item animate">
+                <div class="skill-icon"><i class="fab fa-react"></i></div>
+                <div class="skill-name">React</div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="85"></div>
+                </div>
+            </div>
+            <div class="skill-item animate">
+                <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                <div class="skill-name">Figma</div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="90"></div>
+                </div>
+            </div>
+            <div class="skill-item animate">
+                <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                <div class="skill-name">Responsive</div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="94"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2 class="animate">My Enchanted Creations</h2>
+        <div class="projects-grid">
+            <div class="project-card animate">
+                <img class="project-img" src="./images/e-commerece.jpg" alt="E-Commerce">
+                <div class="project-info">
+                    <h3 class="project-title">Mystic E-Commerce</h3>
+                    <p class="project-tech">React, Magic UI, Stripe</p>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card animate">
+                <img class="project-img" src="./images/dash-board.jpg" alt="Dashboard">
+                <div class="project-info">
+                    <h3 class="project-title">Crystal Dashboard</h3>
+                    <p class="project-tech">React, Holograms, Chart.js</p>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card animate">
+                <img class="project-img" src="./images/banking.png" alt="UI/UX">
+                <div class="project-info">
+                    <h3 class="project-title">Enchanted Banking</h3>
+                    <p class="project-tech">Figma, UX Spells, Prototypes</p>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-figma"></i></a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card animate">
+                <img class="project-img" src="./images/pc.png" alt="Portfolio">
+                <div class="project-info">
+                    <h3 class="project-title">Wizard's Grimoire</h3>
+                    <p class="project-tech">HTML, CSS, JS, GSAP</p>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+  <section id="contact">
+    <h2 class="animate">Summon Me</h2>
+    <div class="contact-grid">
+      
+      <form action="https://api.web3forms.com/submit" method="POST" id="contact-form" class="animate">
+        <!-- Web3Forms Access Key -->
+        <input type="hidden" name="access_key" value="dddc4cab-3765-4010-8fec-7e5c18694185">
+
+        <div class="form-group">
+          <input type="text" name="name" required>
+          <label>Your Name</label>
+        </div>
+
+        <div class="form-group">
+          <input type="email" name="email" required>
+          <label>Your Email</label>
+        </div>
+
+        <div class="form-group">
+          <textarea name="message" rows="5" required></textarea>
+          <label>Your Spell Request</label>
+        </div>
+
+        <button type="submit" class="submit-btn">Cast Message</button>
+      </form>
+
+      <div class="contact-info animate">
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <h3>Email</h3>
+            <p>faqihatariq466@gmail.com</p>
+          </div>
+        </div>
+      <div class="contact-item">
+  <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+  <div>
+    <h3>LinkedIn</h3>
+    <a href="https://www.linkedin.com/in/hiba-tariq-0a40b937a/" 
+       target="_blank" 
+       class="linkedin-btn">
+       <i class="fab fa-linkedin"></i> Connect on LinkedIn
+    </a>
+  </div>
+</div>
+
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-globe"></i></div>
+          <div>
+            <h3>Realm</h3>
+            <p>Available for Remote Work</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Hiba Tariq • Crafted with Pure Magic using HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="./script.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
